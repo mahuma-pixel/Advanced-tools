@@ -86,7 +86,11 @@
   .email-link:hover {
     text-decoration: underline;
   }
-  @media (max-width:600px){.tertiary-link{width: 200% }}
+  @media (max-width:600px){.tertiary-link{
+display: block;
+text-align:center;
+margin: 0 20px;}}
+
   .tertiary-link{border-radius: 4px;
     padding: 20px 15px;
     text-decoration: none;
